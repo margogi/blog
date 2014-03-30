@@ -1,0 +1,8 @@
+margogiblog_homepage:
+    pattern:  /
+    defaults: { _controller: margogiBlogBundle:Default:index }
+
+##########################INTRANET##########################
+tag:
+  pattern: /intranet/tag
+  defaults: {_controller: margogiBlogBundle:TagManagement:index}

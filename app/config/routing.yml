@@ -1,0 +1,4 @@
+margogiblog:
+    resource: "@margogiBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+

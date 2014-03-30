@@ -1,0 +1,7 @@
+parameters:
+#    margogiblog.example.class: margogi\BlogBundle\Example
+
+services:
+#    margogiblog.example:
+#        class: %margogiblog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

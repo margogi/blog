@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}margogi Blog{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+<header>
+    <p>Esta es la cabecera de la página</p>
+
+    <nav id="menu">
+        <a href="{{ path('margogiblog_homepage') }}">margogi Blog</a>
+    </nav>
+</header>
+<div id="contenido">
+    {% block body %}<p>Este es el contenido de la página</p>{% endblock %}
+</div>
+<footer>
+    <p>Este es el pie de la página</p>
+</footer>
+
+{% block javascripts %}{% endblock %}
+</body>
+</html>
